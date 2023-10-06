@@ -20,7 +20,7 @@ const ProductDetails = ({ product, products }) => {
 
   const handleBuyNow = () => {
     ReactGA.send({ hitType: 'event', eventCategory: 'Button', eventAction: 'Buy Now', eventLabel: 'Product Details' });
-    window.open('https://secure.2checkout.com/checkout/buy?merchant=254173080635&tpl=default&return-type=redirect&return-url=https%3A%2F%2Fwww.handstitches.com%2Fsuccess&prod='+ID_2checkout+'&qty=1&signature=9a98596be5bb14c075db36e711191201eadc76066b2479c4e3471d4b6e362e50', '_blank');
+    window.open(ID_2checkout, '_blank');
   }
 
 
@@ -68,20 +68,12 @@ const ProductDetails = ({ product, products }) => {
         </div>
 
 
-          <p className="price">${price}</p>
+
           
-          <div className="quantity">
-            <h3>Quantity:</h3>
-              <p className="quantity-desc">
-              <span className="minus" onClick={decQty}><AiOutlineMinus /></span>
-              <span className="num">{qty}</span>
-              {/* <span className="plus" onClick={incQty}><AiOutlinePlus /></span> */}
-              <span className="plus" ><AiOutlinePlus /></span>
-            </p>
-          </div>
+          
           <div className="buttons">
             {/* <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button> */}
-            <button type="button" className="buy-now" onClick={handleBuyNow}>Buy Now</button>
+            <button type="button" className="buy-now" onClick={handleBuyNow}>LOOK AT ME NOW</button>
           </div>
         </div>
       </div>

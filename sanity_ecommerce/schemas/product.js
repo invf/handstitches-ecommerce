@@ -19,9 +19,15 @@ export default {
     },
     { 
       name: 'ID_2checkout',
-      title: 'ID_2checkout',
+      title: 'Link',
       type: 'string',
     },
+    { 
+      name: 'price',
+      title: 'Text on main page',
+      type: 'string',
+    },
+
     { 
       name: 'slug',
       title: 'Slug',
@@ -31,11 +37,7 @@ export default {
         maxLength: 90,
       }
     },
-    { 
-      name: 'price',
-      title: 'Price',
-      type: 'number',
-    },
+
 
 
     {

@@ -19,15 +19,7 @@ const BurgerMenu = () => {
 
       {isOpen && (
         <div className={styles.menu}>
-          <Link href="/payments">
-            <a className={styles.link} onClick={toggleMenu}>Payments</a>
-          </Link>
-          <Link href="/delivery">
-            <a className={styles.link} onClick={toggleMenu}>Delivery</a>
-          </Link>
-          <Link href="/about">
-            <a className={styles.link} onClick={toggleMenu}>About</a>
-          </Link>
+
           <Link href="/privacy-policy">
             <a className={styles.link} onClick={toggleMenu}>Privacy Policy</a>
           </Link>

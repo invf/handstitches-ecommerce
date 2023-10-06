@@ -156,8 +156,10 @@ background-color: white;
 }
 
 .hero-banner-container h3{
-  font-size: 3rem;
-  margin-top: 4px;
+  display: flex;
+  justify-content: center; /* Horizontally center text */
+  font-size: 2rem;
+  margin-top: -30px;
 }
 .hero-banner-container h1{
   color: white;

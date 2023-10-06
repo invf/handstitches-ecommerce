@@ -17,15 +17,13 @@ const Delivery = ({ products, bannerData }) => (
       <h2 className={styles.subtitle}>Privacy Policy
 </h2>
 
-<p className={styles.description}>At HANDSTITCHES STORE, we take your privacy seriously. This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services.
+<p className={styles.description}>At MYNEWPROFILE, we take your privacy seriously. This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services.
 </p>
 
 <h2 className={styles.subtitle}>What Information Do We Collect?
 </h2>
 
-<p className={styles.description}>When you visit our website, we may collect certain types of information about you, including:
-</p>
-<p className={styles.description}>Personal information such as your name, email address, postal address, and phone number, which you may provide when you fill out a form on our website or sign up for our services.
+<p className={styles.description}>When you visit our website, we DO NOT COLLECT information about you, including:
 </p>
 <p className={styles.description}>Non-personal information such as your IP address, browser type, and device information, which we may collect automatically through cookies or other tracking technologies.
 </p>
@@ -69,9 +67,9 @@ const Delivery = ({ products, bannerData }) => (
 <h2 className={styles.subtitle}>Contact Us
 </h2>
 
-<p className={styles.description}>If you have any questions or concerns about our Privacy Policy, please contact us at Email: handstitches.ua@gmail.com or Mobile: +380-067-506-50-75.
+<p className={styles.description}>If you have any questions or concerns about our Privacy Policy, please contact us at Email: admin@mynewprofile.online.
 </p>
-<p className={styles.description}>Thank you for choosing HANDSTITCHES STORE!
+<p className={styles.description}>Thank you for choosing MYNEWPROFILE!
 </p>
 
       </main>

@@ -29,6 +29,7 @@
     "react-helmet": "^6.1.0",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.11.2",
     "react-social-icons": "^5.15.0",
     "stripe": "^8.209.0",
     "tls": "^0.0.1"

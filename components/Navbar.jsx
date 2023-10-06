@@ -20,7 +20,7 @@ const Navbar = () => {
         <div>
             <p className="logo">            
             
-			<Link href="/">ONLYFANS PROFILES</Link>
+			<Link href="/">HANDSTITCHES</Link>
 			</p>
 
           </div>  
@@ -33,7 +33,21 @@ const Navbar = () => {
             <li className={style.menu_button}>
               <a href='/'>Home</a>
             </li>
-
+            <li className={style.menu_button}>
+              <a href='./about'>About</a>
+            </li>
+            <li className={style.menu_button}>
+              <a href='./payment'>Payments</a>
+            </li>
+            <li className={style.menu_button}>
+              <a href='./delivery'>Delivery</a>
+            </li>
+            <li className={style.menu_button}>
+              <a href='./PrivacyPolicy'>Refund Policy</a>
+            </li>
+            <li className={style.menu_button}>
+              <a href='./contact'>Contact</a>
+            </li>
             <li className={style.menu_button}>
               <a href='./policy'>Privacy Policy</a>
             </li>

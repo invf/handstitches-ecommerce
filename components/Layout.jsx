@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>MY NEW PROFILE</title>
+        <title>Handstitches Store</title>
         <link rel="icon" href="./favicon-32x32.ico" />
       </Head>
       <header>
